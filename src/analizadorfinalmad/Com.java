@@ -102,52 +102,52 @@ public class Com extends javax.swing.JFrame {
      
     // Tabla de respaldo por si se desmadra
     String matriz[][] = {
-       //"id", "num", "int", "float", "char", ",", ";",  "+",  "-",  "*",  "/",  "(", ")",  "=", "$", "P", "Tipo", "V", "A", "Exp", "E", "Term", "T", "F"]
-        {"q7",  "",   "q4",   "q5",    "q6",  "",  "",   "",   "",   "",   "",   "",  "",   "",  "", "q1", "q2",    "","q3",  "",   "",    "",   "",  ""},
-        {"",    "",    "",     "",      "",   "",  "",   "",   "",   "",   "",   "",  "",   "", "P0", "",   "",     "", "",   "",   "",    "",   "",  "" },
-        {"q8",  "",    "",     "",      "",   "",  "",   "",   "",   "",   "",   "",  "",   "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
-        {"",    "",    "",     "",      "",   "",  "",   "",   "",   "",   "",   "",  "",   "", "P2", "",   "",     "", "",   "",   "",    "",   "",  ""},
-        {"P3",  "",    "",     "",      "",   "",  "",   "",   "",   "",   "",   "",  "",   "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
-        {"P4",  "",    "",     "",      "",   "",  "",   "",   "",   "",   "",   "",  "",   "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
-        {"P5",  "",    "",     "",      "",   "",  "",   "",   "",   "",   "",   "",  "",   "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
-        {"",    "",    "",     "",      "",   "",  "",   "",   "",   "",   "",   "",  "",  "q9", "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
-        {"",    "",    "",     "",      "", "q11","q12", "",   "",   "",   "",   "",  "",   "", "P1",  "",   "",  "q10","",   "",   "",    "",   "",  ""},
-        {"q18","q19",  "",     "",      "",   "",  "",  "q14","q15", "",   "", "q20", "",   "",  "",  "",   "",     "", "",   "q13",   "",    "q16", "","q17"},
-        {"P1",  "",    "",     "",      "",   "",  "",   "",   "",   "",   "",   "",  "",   "", "P1",  "",   "",     "", "",   "",   "",    "",   "",  ""},
-        {"q21", "",    "",     "",      "",   "",  "",   "",   "",   "",   "",   "",  "",   "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
-        {"q7",  "",    "",     "",      "",   "",  "",   "",   "",   "",   "",   "",  "",   "", "P7","q22","q2",    "","q3",   "",   "",    "",   "",  ""},
-        {"",    "",    "",     "",      "",   "","q23",  "",   "",   "",   "",   "",  "",   "", "P8", "",   "",     "", "",   "",   "",    "",   "",  ""},
-        {"q18","q19",  "",     "",      "",   "",  "",   "",   "",   "",   "", "q20", "",   "",  "",  "",   "",     "", "",   "",   "",   "q24", "", "q17"},
-        {"q18","q19",  "",     "",      "",   "",  "",   "",   "",   "",   "", "q20", "",   "",  "",  "",   "",     "", "",   "",   "",   "q25", "", "q17"},
-        {"",    "",    "",     "",      "",   "", "P14","q27","q28", "",   "",   "", "P14", "",  "",  "",   "",     "", "",   "", "q26",   "",   "",  ""},
-        {"",    "",    "",     "",      "",   "", "P18","P18","P18","q30","q31", "", "P18", "",  "",  "",   "",     "", "",   "",   "",    "", "q29", ""},
-        {"",    "",    "",     "",      "",   "", "P19","P19","P19","P19","P19", "", "P19", "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
-        {"",    "",    "",     "",      "",   "", "P20","P20","P20","P20","P20", "", "P20", "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
-        {"q18","q19",  "",     "",      "",   "",  "",  "q14","q15", "",   "", "q20", "",   "",  "",  "",   "",     "", "",   "q32", "",   "q16","q29","q17"},
-        {"",    "",    "",     "",      "", "q11","q12", "",   "",   "",   "",   "",  "",   "",  "",  "",   "",   "q33","",   "",   "",    "",   "",  ""},
-        {"",    "",    "",     "",      "",   "",  "",   "",   "",   "",   "",   "",  "",   "", "P7", "",   "",     "", "",   "",   "",    "",   "",  ""},
-        {"",    "",    "",     "",      "",   "",  "",   "",   "",   "",   "",   "",  "",   "", "P8", "",   "",     "", "",   "",   "",    "",   "",  ""},
-        {"",    "",    "",     "",      "",   "", "P14","q27","q28", "",   "",   "", "P14", "",  "",  "",   "",     "", "",   "", "q35",   "",   "",  ""},
-        {"",    "",    "",     "",      "",   "", "P14","q27","q28", "",   "",   "", "P14", "",  "",  "",   "",     "", "",   "", "q36",   "",   "",  ""},
-        {"",    "",    "",     "",      "",   "", "P11", "",   "",   "",   "",   "", "P11", "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
-        {"q18","q19",  "",     "",      "",   "",  "",   "",   "",   "",   "", "q20", "",   "",  "",  "",   "",     "", "",   "",   "",  "q36",  "q29", "q17"},
-        {"q18","q19",  "",     "",      "",   "",  "",   "",   "",   "",   "", "q20", "",   "",  "",  "",   "",     "", "",   "",   "",  "q37",  "", "q17"},
-        {"",    "",    "",     "",      "",   "", "P15","P15","P15", "",   "",   "", "P15", "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
-        {"q18","q19",  "",     "",      "",   "",  "",   "",   "",   "",   "", "q20", "",   "",  "",  "",   "",     "", "",   "",   "",    "", "q39", ""},
-        {"q18","q19",  "",     "",      "",   "",  "",   "",   "",   "",   "", "q20", "",   "",  "",  "",   "",     "", "",   "",   "",    "", "q40", ""},
-        {"",    "",    "",     "",      "",   "",  "",   "",   "",   "",   "",   "", "q40", "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
-        {"",    "",    "",     "",      "",   "",  "",   "",   "",   "",   "",   "",  "",   "", "P6", "",   "",     "", "",   "",   "",    "",   "",  ""},
-        {"",    "",    "",     "",      "",   "", "P9",  "",   "",   "",   "",   "", "P9",  "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
-        {"",    "",    "",     "",      "",   "", "P10", "",   "",   "",   "",   "", "P10", "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
-        {"",    "",    "",     "",      "",   "", "P14","q27","q28", "",   "",   "", "P14", "",  "",  "",   "",     "", "",   "", "q42",   "",   "",  ""},
-        {"",    "",    "",     "",      "",   "", "P14","P17","q28", "",   "",   "", "P14", "",  "",  "",   "",     "", "",   "", "q43",   "",   "",  ""},
-        {"",    "",    "",     "",      "",   "", "P18","P18","P18","q30","q31", "", "P18", "",  "",  "",   "",     "", "",   "",   "",    "", "q44", ""},
-        {"",    "",    "",     "",      "",   "", "P18","P18","P18","q30","q31", "", "P18", "",  "",  "",   "",     "", "",   "",   "",    "", "q45", ""},
-        {"",    "",    "",     "",      "",   "", "P21","P21","P21","P21","P21", "", "P21", "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
-        {"",    "",    "",     "",      "",   "", "P12", "",   "",   "",   "",   "", "P12", "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
-        {"",    "",    "",     "",      "",   "", "P13", "",   "",   "",   "",   "", "P12", "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
-        {"",    "",    "",     "",      "",   "", "P16","P16","P16", "",   "",   "", "P16", "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
-        {"",    "",    "",     "",      "",   "", "P17","P17","P17", "",   "",   "", "P17", "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""}
+      //#"id", "num", "int", "float", "char", ",", ";",  "+",  "-",  "*",  "/",  "(", ")",  "=", "$", "P", "Tipo", "V", "A", "Exp", "E", "Term", "T", "F"
+    {"q7",  "",   "q4",   "q5",    "q6",  "",  "",   "",   "",   "",   "",   "",  "",   "",  "", "q1", "q2",    "","q3",  "",   "",    "",   "",  ""},
+    {"",    "",    "",     "",      "",   "",  "",   "",   "",   "",   "",   "",  "",   "", "P0", "",   "",     "", "",   "",   "",    "",   "",  "" },
+    {"q8",  "",    "",     "",      "",   "",  "",   "",   "",   "",   "",   "",  "",   "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
+    {"",    "",    "",     "",      "",   "",  "",   "",   "",   "",   "",   "",  "",   "", "P2", "",   "",     "", "",   "",   "",    "",   "",  ""},
+    {"P3",  "",    "",     "",      "",   "",  "",   "",   "",   "",   "",   "",  "",   "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
+    {"P4",  "",    "",     "",      "",   "",  "",   "",   "",   "",   "",   "",  "",   "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
+    {"P5",  "",    "",     "",      "",   "",  "",   "",   "",   "",   "",   "",  "",   "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
+    {"",    "",    "",     "",      "",   "",  "",   "",   "",   "",   "",   "",  "",  "q9", "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
+    {"",    "",    "",     "",      "", "q11","q12", "",   "",   "",   "",   "",  "",   "", "P1",  "",   "",  "q10","",   "",   "",    "",   "",  ""},
+    {"q18","q19",  "",     "",      "",   "",  "",  "q14","q15", "",   "", "q20", "",   "",  "",  "",   "",     "", "",   "q13","",    "q16", "","q17"},
+    {"P1",  "",    "",     "",      "",   "",  "",   "",   "",   "",   "",   "",  "",   "", "P1",  "",   "",     "", "",   "",   "",    "",   "",  ""},
+    {"q21", "",    "",     "",      "",   "",  "",   "",   "",   "",   "",   "",  "",   "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
+    {"q7",  "",   "q4",    "q5",    "q6",   "",  "",   "",   "",   "",   "",   "",  "",   "","P7","q22","q2",    "","q3",   "",   "",    "",   "",  ""},
+    {"",    "",    "",     "",      "",   "","q23",  "",   "",   "",   "",   "",  "",   "", "P8", "",   "",     "", "",   "",   "",    "",   "",  ""},
+    {"q18","q19",  "",     "",      "",   "",  "",   "",   "",   "",   "", "q20", "",   "",  "",  "",   "",     "", "",   "",   "",   "q24", "", "q17"},
+    {"q18","q19",  "",     "",      "",   "",  "",   "",   "",   "",   "", "q20", "",   "",  "",  "",   "",     "", "",   "",   "",   "q25", "", "q17"},
+    {"",    "",    "",     "",      "",   "", "P14","q27","q28", "",   "",   "", "P14", "",  "",  "",   "",     "", "",   "", "q26",   "",   "",  ""},
+    {"",    "",    "",     "",      "",   "", "P18","P18","P18","q30","q31", "", "P18", "",  "",  "",   "",     "", "",   "",   "",    "", "q29", ""},
+    {"",    "",    "",     "",      "",   "", "P19","P19","P19","P19","P19", "", "P19", "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
+    {"",    "",    "",     "",      "",   "", "P20","P20","P20","P20","P20", "", "P20", "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
+    {"q18","q19",  "",     "",      "",   "",  "",  "q14","q15", "",   "", "q20", "",   "",  "",  "",   "",     "", "",   "q32", "",   "q16","q29","q17"},
+    {"",    "",    "",     "",      "", "q11","q12", "",   "",   "",   "",   "",  "",   "",  "",  "",   "",   "q33","",   "",   "",    "",   "",  ""},
+    {"",    "",    "",     "",      "",   "",  "",   "",   "",   "",   "",   "",  "",   "", "P7", "",   "",     "", "",   "",   "",    "",   "",  ""},
+    {"",    "",    "",     "",      "",   "",  "",   "",   "",   "",   "",   "",  "",   "", "P8", "",   "",     "", "",   "",   "",    "",   "",  ""},
+    {"",    "",    "",     "",      "",   "", "P14","q27","q28", "",   "",   "", "P14", "",  "",  "",   "",     "", "",   "", "q35",   "",   "",  ""},
+    {"",    "",    "",     "",      "",   "", "P14","q27","q28", "",   "",   "", "P14", "",  "",  "",   "",     "", "",   "", "q36",   "",   "",  ""},
+    {"",    "",    "",     "",      "",   "", "P11", "",   "",   "",   "",   "", "P11", "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
+    {"q18","q19",  "",     "",      "",   "",  "",   "",   "",   "",   "", "q20", "",   "",  "",  "",   "",     "", "",   "",   "",  "q36",  "q29", "q17"},
+    {"q18","q19",  "",     "",      "",   "",  "",   "",   "",   "",   "", "q20", "",   "",  "",  "",   "",     "", "",   "",   "",  "q37",  "", "q17"},
+    {"",    "",    "",     "",      "",   "", "P15","P15","P15", "",   "",   "", "P15", "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
+    {"q18","q19",  "",     "",      "",   "",  "",   "",   "",   "",   "", "q20", "",   "",  "",  "",   "",     "", "",   "",   "",    "",   "", "q38"},
+    {"q18","q19",  "",     "",      "",   "",  "",   "",   "",   "",   "", "q20", "",   "",  "",  "",   "",     "", "",   "",   "",    "",   "", "q40"},
+    {"",    "",    "",     "",      "",   "","error",   "",   "",   "",   "",   "", "q40", "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
+    {"",    "",    "",     "",      "",   "",  "",   "",   "",   "",   "",   "",  "",   "", "P6", "",   "",     "", "",   "",   "",    "",   "",  ""},
+    {"",    "",    "",     "",      "",   "", "P9",  "",   "",   "",   "",   "", "P9",  "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
+    {"",    "",    "",     "",      "",   "", "P10", "",   "",   "",   "",   "", "P10", "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
+    {"",    "",    "",     "",      "",   "", "P14","q27","q28", "",   "",   "", "P14", "",  "",  "",   "",     "", "",   "", "q41",   "",   "",  ""},
+    {"",    "",    "",     "",      "",   "", "P14","P17","q28", "",   "",   "", "P14", "",  "",  "",   "",     "", "",   "", "q42",   "",   "",  ""},
+    {"",    "",    "",     "",      "",   "", "P18","P18","P18","q30","q31", "", "P18", "",  "",  "",   "",     "", "",   "",   "",    "", "q44", ""},
+    {"",    "",    "",     "",      "",   "", "P18","P18","P18","q30","q31", "", "P18", "",  "",  "",   "",     "", "",   "",   "",    "", "q45", ""},
+    {"",    "",    "",     "",      "",   "", "P21","P21","P21","P21","P21", "", "P21", "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
+    {"",    "",    "",     "",      "",   "", "P12", "",   "",   "",   "",   "", "P12", "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
+    {"",    "",    "",     "",      "",   "", "P13", "",   "",   "",   "",   "", "P12", "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
+    {"",    "",    "",     "",      "",   "", "P16","P16","P16", "",   "",   "", "P16", "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""},
+    {"",    "",    "",     "",      "",   "", "P17","P17","P17", "",   "",   "", "P17", "",  "",  "",   "",     "", "",   "",   "",    "",   "",  ""}
     };
     
     
@@ -291,11 +291,14 @@ public class Com extends javax.swing.JFrame {
 
     boolean banpr = true;
       private List<String> input;
+      
+      String possibleSymbols = "";
+      
     
  public void parse() {
-    String lexicoText = lexico.getText();
+    String lexicoText = lexico.getText()+"$"+"$";
     String firstSymbol;
-    StringTokenizer tokenizer = new StringTokenizer(lexicoText, " ,;()=+-*/", true);
+    StringTokenizer tokenizer = new StringTokenizer(lexicoText, " ,;()=+-*/$", true);
     List<String> input = new ArrayList<>();
      String inputSymbol;
      String PrevioSymbol;
@@ -324,6 +327,11 @@ System.out.println("Contenido de inputIterator: " + inputIterator);
         // Consulta la tabla de análisis para obtener la acción
         String action = getAction(state, inputSymbol);
         System.out.println("Pila despues del getaction: " + stack);
+        
+        if (action.equals("P0")) {
+        // Si la acción es "P0", cambia la acción a "Accept" y cierra el bucle
+        action = "Accept";
+    }
 
 if (action.startsWith("q")) {
     // Realiza un desplazamiento
@@ -343,15 +351,15 @@ if (action.startsWith("q")) {
         System.out.println("Lado derecho de la producción: " + rightHandSide);
         
         if (rightHandSide.contains("€")) {
-                    // La producción puede reducirse a un símbolo vacío
+                    // La producción no puede reducirse a un símbolo vacío
                     isReducing = true;// Establece la bandera para salir del bucle exterior
                 } else {
-                    // La producción no es vacía, realiza la reducción y otras operaciones necesarias
-                    // ... (tu código de reducción)
-                
+                   
         // Elimina los símbolos de la pila
-        for (int i = 0; i < rightHandSide.size(); i++) {
+        for (int i = 0; i < (rightHandSide.size()-1)*2; i++) {
+             //System.out.println("Lado derecho de la rightHandSide antes pop: " + rightHandSide.size());
             stack.pop();
+           
         }
         }
         
@@ -366,10 +374,12 @@ if (action.startsWith("q")) {
         // Consulta la tabla de análisis para obtener el próximo estado después de la reducción
         String nextState = getGoto(estadoActual, nonTerminal);
         stack.push(nextState);
+         System.out.println("No Terminal: " + nonTerminal);
         System.out.println("Pila después del reduce: " + stack);
         isReducing = true;
          System.out.println("Nuevo valor del inputSymbol: " + inputSymbol);
          PrevioSymbol= inputSymbol;
+        
          
     } else {
         System.out.println("Error de sintaxis en el análisis de acción (Reduce): " + action);
@@ -382,7 +392,7 @@ if (action.startsWith("q")) {
     return;
 } else {
     System.out.println("Error de sintaxis (Desconocido): " + action);
-    mensajes.setText("Error de sintaxis.");
+    mensajes.setText("Error de sintaxis. "+ "Posibles simbolos aceptables: "+possibleSymbols);
     return;
 }
     }
@@ -400,74 +410,54 @@ private String getAction(String state, String token) {
     System.out.println("Token: " + token + ", Column Index: " + column);
     System.out.println("State: " + state + ", Row Index: " + row);
 
-    if (row >= 0 && column >= 0) {
+    if (row >= 0 && column >= 0 && matriz[row][column].isEmpty()) {
+        System.out.println("Celda vacía en la matriz. Comparando con todos los encabezados de columnas.");
+        possibleSymbols = "";
+        for (String symbol : encabezadosColumnas) {
+            int possibleColumn = Arrays.asList(encabezadosColumnas).indexOf(symbol.toLowerCase());
+            if (possibleColumn >= 0 && possibleColumn < matriz[0].length) {
+                String possibleAction = matriz[row][possibleColumn];
+                if (!possibleAction.isEmpty()) {
+                    possibleSymbols += symbol + ", ";
+                }
+            }
+        }
+
+        if (!possibleSymbols.isEmpty()) {
+            System.out.println("Símbolos aceptables: " + possibleSymbols);
+        } else {
+            System.out.println("No hay símbolos aceptables para este estado.");
+        }
+
+        return "Invalid";
+    } else if (row >= 0 && column >= 0) {
+        String action = matriz[row][column];
+        System.out.println("Value in Matrix: " + action);
+        return action;
+    } else {
+        System.out.println("Invalid indices. Row: " + row + ", Column: " + column);
+        System.out.println("No hay símbolos aceptables para este estado.");
+        return "Invalid";
+    }
+}
+
+
+
+
+  private String getGoto(String state, String nonTerminal) {
+        int column = Arrays.asList(encabezadosColumnas).indexOf(nonTerminal);
+        int row = Arrays.asList(encabezadosRenglones).indexOf(state);
+       if (row >= 0 && column >= 0) {
         System.out.println("Value in Matrix: " + matriz[row][column]);
         return matriz[row][column];
     } else {
         System.out.println("Invalid indices. Row: " + row + ", Column: " + column);
         return "Invalid";
     }
-}
-
-
-
-
-private String getGoto(String state, String nonTerminal) {
-    int column = Arrays.asList(encabezadosColumnas).indexOf(nonTerminal);
-    int row = Arrays.asList(encabezadosRenglones).indexOf(state);
-    System.out.println("NonTerminal: " + nonTerminal + ", Column Index: " + column);
-    System.out.println("State getGoto: " + state + ", Row Index: " + row);
-
-    if (row >= -1 && column >= 0) {
-        if (isValidState(state)) {
-            System.out.println("Value in Matrix: " + matriz[row][column]);
-            return matriz[row][column];
-        } else {
-            // Eliminar el estado inválido de la pila
-            System.out.println("Estado inválido. Se eliminó de la pila: " + state);
-            removeStateFromStack(state);
-            Stack<String> stack2 = new Stack<>();
-             stack2.addAll(stack);
-
-            String pilaAlto = stack.peek();
-            stack2.remove(pilaAlto);
-            // Restaurar el estado anterior (q20 en este caso)
-            System.out.println("despues del remove Restaurando ahora el estado es: "+ stack2.peek());
-         String prevState = "q20";
-            System.out.println("Restaurando estado anterior: " + prevState);
-            
-
-            // Calcular el próximo estado utilizando el estado anterior y el nonTerminal
-            return getGoto(prevState, nonTerminal);
-        }
-    } else {
-        System.out.println("Invalid indices. No se eliminó de la pila: " + state);
-        return "Invalid";
     }
-}
 
 
 
-
-private void removeStateFromStack(String stateToRemove) {
-    Stack<String> tempStack = new Stack<>();
-    while (!stack.isEmpty()) {
-        String currentState = stack.pop();
-        if (!currentState.equals(stateToRemove)) {
-            tempStack.push(currentState);
-        } else {
-            System.out.println("Eliminando estado inválido de la pila: " + currentState);
-        }
-    }
-    // Transferir los elementos de la pila temporal de vuelta a la pila original
-    while (!tempStack.isEmpty()) {
-        stack.push(tempStack.pop());
-    }
-}
-private boolean isValidState(String state) {
-    // Verificar si el estado comienza con "q" y contiene al menos un carácter después del "q"
-    return state.startsWith("q") && state.length() > 1;
-}
 
 
     

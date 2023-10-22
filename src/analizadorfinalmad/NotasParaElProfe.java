@@ -20,13 +20,8 @@ public class NotasParaElProfe {
                                                                 //analisisLexicoEerr();
                                                                 //parse();
     
-    ///Pues hice mi intento, tuve problemas al aplicar el sintactico por parte del vacio en las producciones
-    ///la mayoria del proceso sintactico se mostrara hasta que encuentre un vacio y despues no estara eliminando correctamente
-    
-    //En Resumidas cuentas lo lexico funciona, signos como ?,¿,% etc. mandaran mensaje de error por no encontrarlos y asi.
-    //En parte del sintactico lo que funciona son los Shift por parte de los q en la tabla
-    //y hasta cierta manera el remover por parte de los P hasta cierto punto
-    //el proceso lexico se mostrara dentro de la interfaz, el proceso sintactico al tenerlo incompleto se estara mostrando todo el cambio en el CMD
+    //Ya habo una revision personal y pues esta funcional errores lexicos como errores sintacticos con posibles simbolos aceptables
+    //No es necesario guardar el archivo al momento de cerrar el programa
     
     //Un ejemplo para ejecutar seria: float a,b; b = (12 + 48);
 
